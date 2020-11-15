@@ -2,9 +2,9 @@
  "dojo_info": {
   "pp_type": "NC",
   "xc_name": "PW",
+  "authors": ["M. J. van Setten", "M. Giantomassi"],
   "description": "Standard table designed for GS applications",
   "references": ["Dojo paper"],
-  "authors": ["M. J. van Setten", "M. Giantomassi"],
   "dojo_dir": "ONCVPSP-PW-PDv0.4"
  },
  "pseudos_metadata": {
@@ -162,22 +162,44 @@
     }
    }
   },
+  "O": {
+   "basename": "O.psp8",
+   "Z_val": 6.0,
+   "l_max": 2,
+   "md5": "53efa4611cf1d581a18f615e1ccbb85d",
+   "dfact_meV": 2.1819077241649008,
+   "dfactprime_meV": 5.840013457697187,
+   "tags": [
+    "GW"
+   ],
+   "hints": {
+    "high": {
+     "ecut": 48.0
+    },
+    "low": {
+     "ecut": 36.0
+    },
+    "normal": {
+     "ecut": 42.0
+    }
+   }
+  },
   "F": {
    "basename": "F.psp8",
    "Z_val": 7.0,
    "l_max": 2,
-   "md5": "a063172c6aab0d4517684fbcc7a2e87a",
-   "dfact_meV": 0.12988116113260653,
-   "dfactprime_meV": 0.6018042301952166,
+   "md5": "e7a8f1ed6708ad59e3d10d6acb85aa83",
+   "dfact_meV": 0.13596337183706386,
+   "dfactprime_meV": 0.4736614763059313,
    "tags": [
     " "
    ],
    "hints": {
     "high": {
-     "ecut": 46.0
+     "ecut": 48.0
     },
     "low": {
-     "ecut": 34.0
+     "ecut": 36.0
     },
     "normal": {
      "ecut": 42.0
@@ -510,6 +532,28 @@
     }
    }
   },
+  "Mn": {
+   "basename": "Mn-sp.psp8",
+   "Z_val": 15.0,
+   "l_max": 2,
+   "md5": "7050947593889f8dbdd109819ad2019a",
+   "dfact_meV": 0.7651719102971951,
+   "dfactprime_meV": 0.6880670181028107,
+   "tags": [
+    " GW"
+   ],
+   "hints": {
+    "high": {
+     "ecut": 54.0
+    },
+    "low": {
+     "ecut": 42.0
+    },
+    "normal": {
+     "ecut": 48.0
+    }
+   }
+  },
   "Fe": {
    "basename": "Fe-sp.psp8",
    "Z_val": 16.0,
@@ -529,6 +573,50 @@
     },
     "normal": {
      "ecut": 45.0
+    }
+   }
+  },
+  "Co": {
+   "basename": "Co-sp.psp8",
+   "Z_val": 17.0,
+   "l_max": 2,
+   "md5": "bf8d180af38a5ba877023b3006c49c10",
+   "dfact_meV": 2.982135198416456,
+   "dfactprime_meV": 3.453435583944786,
+   "tags": [
+    " GW"
+   ],
+   "hints": {
+    "high": {
+     "ecut": 54.0
+    },
+    "low": {
+     "ecut": 42.0
+    },
+    "normal": {
+     "ecut": 48.0
+    }
+   }
+  },
+  "Ni": {
+   "basename": "Ni-sp.psp8",
+   "Z_val": 18.0,
+   "l_max": 2,
+   "md5": "e869b0ba8d623849bf3cd2ed94d9e35f",
+   "dfact_meV": 0.2779515468343828,
+   "dfactprime_meV": 0.32934735091160816,
+   "tags": [
+    "GW "
+   ],
+   "hints": {
+    "high": {
+     "ecut": 55.0
+    },
+    "low": {
+     "ecut": 45.0
+    },
+    "normal": {
+     "ecut": 49.0
     }
    }
   },
@@ -595,6 +683,28 @@
     },
     "normal": {
      "ecut": 40.0
+    }
+   }
+  },
+  "Ge": {
+   "basename": "Ge-d.psp8",
+   "Z_val": 14.0,
+   "l_max": 2,
+   "md5": "b77d740414568208743bbf8577f93fb0",
+   "dfact_meV": 0.7376184403201369,
+   "dfactprime_meV": 1.3897789571182844,
+   "tags": [
+    ""
+   ],
+   "hints": {
+    "high": {
+     "ecut": 45.0
+    },
+    "low": {
+     "ecut": 35.0
+    },
+    "normal": {
+     "ecut": 39.0
     }
    }
   },

@@ -11,10 +11,12 @@ DOJOTABLE_BASEDIRS = [
     "ONCVPSP-PBE-PDv0.3",
     "ONCVPSP-PBEsol-PDv0.3",
     "ONCVPSP-PW-DEV",
+    "ONCVPSP-PW-PDv0.3",
     # Tables for the paper
     "ONCVPSP-PBE-PDv0.4",
     "ONCVPSP-PW-PDv0.4",
-    "ONCVPSP-PBEsol-PDv0.4"
+    "ONCVPSP-PBEsol-PDv0.4",
+    "paw_pw_standard"
 ]
 
 here = os.path.dirname(__file__)
